@@ -77,8 +77,8 @@ textarea {
 }
 
 .brand img {
-  width: 212px;
-  max-height: 54px;
+  width: 214px;
+  max-height: 58px;
   object-fit: contain;
   object-position: left center;
   mix-blend-mode: multiply;
@@ -494,8 +494,8 @@ svg {
 }
 
 .program-card.featured {
-  background: #dcebd4;
-  border-color: rgba(15, 90, 42, 0.18);
+  background: #eef6e9;
+  border-color: rgba(15, 90, 42, 0.14);
 }
 
 .program-card.featured h3,
@@ -548,7 +548,6 @@ summary::-webkit-details-marker {
 
 summary::after {
   content: "";
-  display: grid;
   position: absolute;
   top: 50%;
   right: 0;
@@ -556,16 +555,32 @@ summary::after {
   height: 38px;
   border: 1px solid var(--line);
   border-radius: 50%;
-  background:
-    linear-gradient(45deg, transparent 48%, var(--green) 50%, var(--green) 54%, transparent 56%) 47% 45% / 13px 13px no-repeat;
-  transform: translateY(-50%) rotate(45deg);
+  background: var(--white);
+  transform: translateY(-50%);
   transition: transform 0.22s ease, background-color 0.22s ease, border-color 0.22s ease;
+}
+
+summary::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  z-index: 1;
+  width: 9px;
+  height: 9px;
+  border-right: 2px solid var(--green);
+  border-bottom: 2px solid var(--green);
+  transform: translateY(-65%) rotate(45deg);
+  transition: transform 0.22s ease;
 }
 
 details[open] summary::after {
   border-color: rgba(15, 90, 42, 0.26);
   background-color: var(--sage-soft);
-  transform: translateY(-50%) rotate(135deg);
+}
+
+details[open] summary::before {
+  transform: translateY(-35%) rotate(225deg);
 }
 
 details > div {
@@ -820,8 +835,8 @@ details > div {
   }
 
   .brand img {
-    width: 176px;
-    max-height: 48px;
+    width: 184px;
+    max-height: 54px;
   }
 
   .nav-toggle {
