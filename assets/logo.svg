@@ -1,0 +1,12 @@
+<svg width="420" height="150" viewBox="0 0 420 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NutriWhizz logo</title>
+  <desc id="desc">Deep green circular leaf logo with NutriWhizz wordmark.</desc>
+  <rect width="420" height="150" rx="24" fill="#F8F1E4"/>
+  <circle cx="82" cy="62" r="44" fill="#0F5A2A"/>
+  <path d="M75 85C65 61 70 43 95 30C98 55 89 73 75 85Z" fill="#B9DDB2"/>
+  <path d="M87 85C91 61 106 47 132 46C125 69 108 82 87 85Z" fill="#B9DDB2"/>
+  <path d="M74 93C79 73 86 55 99 39" stroke="#F8F1E4" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="126" cy="27" r="12" fill="#E7BD6A"/>
+  <text x="148" y="80" fill="#0F5A2A" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-1">NutriWhizz</text>
+  <text x="151" y="109" fill="#7B6A54" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="13" letter-spacing="2">CHILD & FAMILY NUTRITION</text>
+</svg>
