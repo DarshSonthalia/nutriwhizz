@@ -8,5 +8,5 @@
   <path d="M74 93C79 73 86 55 99 39" stroke="#F8F1E4" stroke-width="5" stroke-linecap="round"/>
   <circle cx="126" cy="27" r="12" fill="#E7BD6A"/>
   <text x="148" y="80" fill="#0F5A2A" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="44" letter-spacing="-1">NutriWhizz</text>
-  <text x="151" y="109" fill="#7B6A54" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="13" letter-spacing="2">CHILD & FAMILY NUTRITION</text>
+  <text x="151" y="109" fill="#7B6A54" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="13" letter-spacing="2">CHILD &amp; FAMILY NUTRITION</text>
 </svg>
