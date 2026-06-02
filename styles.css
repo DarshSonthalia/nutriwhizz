@@ -77,8 +77,8 @@ textarea {
 }
 
 .brand img {
-  width: 214px;
-  max-height: 58px;
+  width: clamp(220px, 18vw, 280px);
+  height: auto;
   object-fit: contain;
   object-position: left center;
   mix-blend-mode: multiply;
@@ -762,8 +762,8 @@ details > div {
 }
 
 .footer .brand img {
-  width: 230px;
-  max-height: 70px;
+  width: clamp(230px, 20vw, 300px);
+  height: auto;
   border-radius: 14px;
   mix-blend-mode: normal;
 }
@@ -835,8 +835,7 @@ details > div {
   }
 
   .brand img {
-    width: 184px;
-    max-height: 54px;
+    width: min(220px, 58vw);
   }
 
   .nav-toggle {
