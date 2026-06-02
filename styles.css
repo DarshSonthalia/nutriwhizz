@@ -77,11 +77,10 @@ textarea {
 }
 
 .brand img {
-  width: clamp(220px, 18vw, 280px);
+  width: clamp(150px, 13vw, 190px);
   height: auto;
   object-fit: contain;
   object-position: left center;
-  mix-blend-mode: multiply;
 }
 
 .nav {
@@ -762,10 +761,8 @@ details > div {
 }
 
 .footer .brand img {
-  width: clamp(230px, 20vw, 300px);
+  width: clamp(170px, 16vw, 220px);
   height: auto;
-  border-radius: 14px;
-  mix-blend-mode: normal;
 }
 
 .footer p,
@@ -835,7 +832,7 @@ details > div {
   }
 
   .brand img {
-    width: min(220px, 58vw);
+    width: min(160px, 46vw);
   }
 
   .nav-toggle {
