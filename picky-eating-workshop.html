@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join NutriWhizz's special picky eating workshop and learn practical, pressure-free ways to help your child explore food with confidence."
+    />
+    <meta name="theme-color" content="#f6efe2" />
+    <meta property="og:title" content="Picky Eating, Without the Pressure | NutriWhizz" />
+    <meta
+      property="og:description"
+      content="A practical workshop for parents who want calmer mealtimes and a child who feels safe exploring food."
+    />
+    <meta property="og:image" content="assets/images/hero-mother-child-serving.webp" />
+    <title>Picky Eating, Without the Pressure | NutriWhizz Workshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="picky-eating-workshop.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="workshop-header">
+        <a href="/" aria-label="NutriWhizz home">
+          <img src="assets/images/nutriwhizz-logo.png" alt="NutriWhizz" />
+        </a>
+        <button class="header-cta" type="button" data-open-registration>Save my spot</button>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="workshop-title">
+          <div class="hero-copy">
+            <div class="event-pill">
+              <span class="live-dot" aria-hidden="true"></span>
+              Special online workshop for parents
+            </div>
+            <p class="preheading">If every meal feels like a negotiation, this is for you.</p>
+            <h1 id="workshop-title">Picky Eating,<br /><em>Without the Pressure.</em></h1>
+            <p class="hero-subtitle">
+              Learn how to move from “just one more bite” and food battles to calmer meals, confident boundaries,
+              and a child who feels safe exploring food.
+            </p>
+
+            <div class="host-mobile">
+              <span>Hosted by</span>
+              <strong>Ruchi Sonthalia</strong>
+              <small>Child Nutrition Consultant</small>
+            </div>
+
+            <button class="primary-cta" type="button" data-open-registration>
+              <span>Reserve my workshop spot</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+            </button>
+            <p class="cta-note">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 12 2 2 4-4" /><circle cx="12" cy="12" r="9" /></svg>
+              Register in under 60 seconds
+            </p>
+
+            <div class="outcomes" aria-label="What you will learn">
+              <article>
+                <span>01</span>
+                <p>Why pressure can make picky eating harder—and what to do instead</p>
+              </article>
+              <article>
+                <span>02</span>
+                <p>A simple approach to food exposure without bribing or forcing</p>
+              </article>
+              <article>
+                <span>03</span>
+                <p>Practical routines for calmer, more connected family mealtimes</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="A calm family mealtime">
+            <div class="image-frame">
+              <img
+                src="assets/images/hero-mother-child-serving.webp"
+                alt="A mother serving a nourishing meal to her young child"
+              />
+              <div class="image-glow" aria-hidden="true"></div>
+            </div>
+            <div class="host-card">
+              <div>
+                <span>Your workshop guide</span>
+                <strong>Ruchi Sonthalia</strong>
+                <small>Child Nutrition Consultant</small>
+              </div>
+              <span class="credential">Stanford<br />Certified</span>
+            </div>
+            <div class="promise-card">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z" /></svg>
+              <span><strong>No guilt. No force.</strong> Just practical support.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="reassurance" aria-label="Workshop principles">
+          <p>Made for real parents, real children, and real Indian homes.</p>
+          <div>
+            <span><i aria-hidden="true">✓</i> No complicated meal charts</span>
+            <span><i aria-hidden="true">✓</i> No shame or blame</span>
+            <span><i aria-hidden="true">✓</i> Actionable from your next meal</span>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="mobile-action" aria-hidden="false">
+      <button type="button" data-open-registration>Save my workshop spot</button>
+    </div>
+
+    <dialog class="registration-dialog" data-registration-dialog aria-labelledby="registration-title">
+      <button class="dialog-close" type="button" data-close-registration aria-label="Close registration form">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+      </button>
+
+      <div class="registration-step" data-form-step>
+        <div class="dialog-heading">
+          <span class="mini-label">Workshop registration</span>
+          <h2 id="registration-title">You’re one step away from calmer mealtimes.</h2>
+          <p>Tell us where to send your workshop updates and access details.</p>
+        </div>
+
+        <form data-workshop-form>
+          <label>
+            <span>Your name</span>
+            <input type="text" name="name" autocomplete="name" placeholder="e.g. Priya Sharma" required />
+          </label>
+          <label>
+            <span>WhatsApp number</span>
+            <input
+              type="tel"
+              name="phone"
+              autocomplete="tel"
+              inputmode="tel"
+              placeholder="e.g. +91 98765 43210"
+              minlength="8"
+              required
+            />
+          </label>
+          <label>
+            <span>Email address</span>
+            <input type="email" name="email" autocomplete="email" placeholder="e.g. priya@email.com" required />
+          </label>
+          <label>
+            <span>Child’s age</span>
+            <input type="text" name="child_age" inputmode="decimal" placeholder="e.g. 4 years" required />
+          </label>
+
+          <button class="form-submit" type="submit">
+            <span>Complete my registration</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+          </button>
+          <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          <p class="privacy-note">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3" /></svg>
+            Your details are kept private and only used for workshop communication.
+          </p>
+        </form>
+      </div>
+
+      <div class="success-step" data-success-step hidden>
+        <div class="success-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="m6.5 12.5 3.2 3.2 7.8-8" /></svg>
+        </div>
+        <span class="mini-label">Your spot is saved</span>
+        <h2>Registration complete!</h2>
+        <p>
+          Join the private WhatsApp community now so you don’t miss the workshop updates, access details, and
+          helpful reminders.
+        </p>
+        <a
+          class="whatsapp-cta"
+          href="https://chat.whatsapp.com/BtE7ZPWgO59HhfjmaJJGAz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 1.9 17.7L.3 23.5l5.9-1.6A11.8 11.8 0 0 0 20.5 3.5Zm-8.4 17.1c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.5.9.9-3.4-.2-.4a9.4 9.4 0 1 1 8.3 4.5Zm5.2-7c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2l-.9 1.1c-.2.2-.4.2-.7.1a7.7 7.7 0 0 1-2.3-1.4A8.8 8.8 0 0 1 9 10.6c-.2-.3 0-.5.1-.6l.5-.6.3-.5c.1-.2 0-.4 0-.6l-.9-2c-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.5c.2.2 2.4 3.7 5.8 5.1.8.4 1.4.6 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.4Z" /></svg>
+          Join the WhatsApp community
+        </a>
+        <p class="success-note">Tap the button above to continue in WhatsApp.</p>
+      </div>
+    </dialog>
+
+    <script src="picky-eating-workshop.js"></script>
+  </body>
+</html>
